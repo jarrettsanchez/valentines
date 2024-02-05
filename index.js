@@ -4,6 +4,7 @@ var sound = new Audio();
 
 var song = new Audio("./sounds/song.mp3");
 song.preload = "auto";
+song.volume = 0.5;
 
 function playSound(fileName) {
     sound = new Audio("./sounds/"+fileName+".mp3");
